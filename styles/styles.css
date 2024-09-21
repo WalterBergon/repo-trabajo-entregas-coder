@@ -552,3 +552,44 @@ video {
         padding: 8px;
     }
 }
+
+/* Estilos base */
+.ImgSec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+
+
+
+}
+
+.imgPickups {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Media querie */
+
+/* Estilos para tablets y celus */
+@media (max-width: 768px) {
+    .ImgSec {
+        padding: 15px;
+    }
+
+    .imgPickups {
+        width: 90%;
+    }
+}
+
+/* Estilos para celulares */
+@media (max-width: 576px) {
+    .ImgSec {
+        padding: 10px;
+    }
+
+    .imgPickups {
+        width: 100%;
+    }
+}
