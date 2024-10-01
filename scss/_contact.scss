@@ -1,0 +1,40 @@
+.maincontact {
+    background-color: #015a01;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sectionContact {
+    margin-top: 20px;
+}
+
+.contact-form {
+    background-color: #e7e6e6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    fieldset {
+        border: 1px solid #ced4da;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    legend {
+        padding: 0 10px;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .contact-input,
+    .contact-textarea {
+        margin-top: 5px;
+    }
+
+    .contact-button {
+        width: 100%;
+        padding: 10px;
+        background-color: #9a0381;
+    }
+}

@@ -1,0 +1,143 @@
+@media (max-width: 768px) {
+    .checkbtn {
+        display: block;
+    }
+
+    nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: -100%;
+        background: rgb(18, 17, 17);
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.5s ease;
+        padding-top: $nav-height;
+        z-index: 1;
+    }
+
+    nav ul li {
+        margin: 20px 0;
+    }
+
+    nav ul li a {
+        color: $text-color;
+        font-size: $font-size-large;
+    }
+
+    .search-container {
+        flex-direction: column;
+    }
+
+    .search-input {
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+    .mainclase section article {
+        flex: 1 1 calc(25% - 20px); // Estilo predeterminado para pantallas grandes
+    }
+
+    @media (max-width: 1024px) {
+        .mainclase section article {
+            flex: 1 1 calc(33.333% - 20px);
+        }
+    }
+
+    @media (max-width: 768px) {
+        .mainclase section article {
+            flex: 1 1 calc(50% - 20px);
+        }
+    }
+
+    @media (max-width: 576px) {
+        .mainclase section article {
+            flex: 1 1 100%;
+        }
+    }
+
+
+    footer .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    footer .footer-left,
+    footer .footer-center,
+    footer .footer-right {
+        flex: 1 0 100%;
+        margin-bottom: 20px;
+    }
+
+    footer .newsletter-form {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    footer .newsletter-form input[type="email"],
+    footer .newsletter-form button {
+        width: 100%;
+    }
+
+    footer .social-icons {
+        justify-content: center;
+    }
+
+    footer .footer-right {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .imagenSectionFondo {
+        height: 30vh;
+    }
+
+    .text-overlay {
+        background-color: rgba(0, 0, 0, 0.677);
+        border-radius: 8px;
+
+        h1 {
+            font-size: 1.5em;
+        }
+
+        h2 {
+            font-size: 1.2em;
+        }
+    }
+
+    footer .newsletter-form {
+        padding: 10px;
+    }
+
+    footer .contact-button {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ImgSec {
+        padding: 15px;
+    }
+
+    .imgPickups {
+        width: 90%;
+    }
+}
+
+/* Estilos para celulares */
+@media (max-width: 576px) {
+    .ImgSec {
+        padding: 10px;
+    }
+
+    .imgPickups {
+        width: 100%;
+    }
+}
