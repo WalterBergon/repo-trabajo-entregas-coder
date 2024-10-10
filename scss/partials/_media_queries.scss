@@ -97,20 +97,33 @@
 @media (max-width: 576px) {
     .imagenSectionFondo {
         height: 30vh;
+
     }
 
     .text-overlay {
-        background-color: rgba(0, 0, 0, 0.677);
-        border-radius: 8px;
+        background-color: rgba(0, 0, 0, 0.561);
+        border-radius: 40px;
+    }
+
+    .text-overlay {
 
         h1 {
             font-size: 1.5em;
+
         }
 
         h2 {
             font-size: 1.2em;
+
         }
     }
+
+
+
+
+
+
+
 
     footer .newsletter-form {
         padding: 10px;

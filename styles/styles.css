@@ -34,7 +34,6 @@ body {
   gap: 10px;
   margin-bottom: 40px;
 }
-
 .mainclase section article {
   flex: 1 1 calc(25% - 20px);
   box-sizing: border-box;
@@ -44,20 +43,17 @@ body {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
-
 .mainclase section article img {
   max-width: 100%;
   height: auto;
   border-radius: 4px;
   margin-bottom: 10px;
 }
-
 .mainclase section article h3 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 16px;
   margin-bottom: 10px;
 }
-
 .mainclase section article p {
   font-size: 16px;
   color: #333;
@@ -75,7 +71,6 @@ body {
   text-transform: uppercase;
   transition: background-color 0.3s ease;
 }
-
 .buttonArticle:hover {
   background-color: #058e02;
 }
@@ -97,18 +92,15 @@ body {
   text-align: center;
   margin-left: 5.5em;
 }
-
 .text-overlay h1,
 .text-overlay h2 {
   margin: 1rem;
   padding: 0;
   color: white;
 }
-
 .text-overlay h1 {
   font-size: 3em;
 }
-
 .text-overlay h2 {
   font-size: 1.5em;
 }
@@ -152,7 +144,6 @@ nav ul {
   right: 20px;
   top: 35px;
 }
-
 .checkbtn i {
   color: white;
 }
@@ -173,7 +164,6 @@ nav ul {
 nav ul li {
   margin-left: 20px;
 }
-
 nav ul li a {
   display: flex;
   color: rgb(249, 249, 248);
@@ -182,9 +172,7 @@ nav ul li a {
   border-radius: 4px;
   text-transform: uppercase;
 }
-
-nav ul li a.active,
-nav ul li a:hover {
+nav ul li a.active, nav ul li a:hover {
   background: rgb(72, 71, 71);
   transition: 0.6s;
 }
@@ -211,11 +199,9 @@ nav ul li a:hover {
   font-size: 16px;
   cursor: pointer;
 }
-
 .search-btn i {
   font-size: 18px;
 }
-
 .search-btn:hover {
   color: #fff;
 }
@@ -225,7 +211,6 @@ footer {
   color: white;
   padding: 20px 0;
 }
-
 footer .footer-container {
   display: flex;
   justify-content: space-between;
@@ -235,30 +220,25 @@ footer .footer-container {
   padding: 0 20px;
   flex-wrap: wrap;
 }
-
 footer .footer-container .footer-left {
   flex: 1;
   text-align: left;
   margin-left: 0px;
 }
-
 footer .footer-container .footer-left .footer-logo {
   max-height: 60px;
 }
-
 footer .footer-container .footer-center {
   flex: 2;
   text-align: center;
   margin-top: 20px;
 }
-
 footer .footer-container .footer-center .newsletter-form {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
-
 footer .footer-container .footer-center .newsletter-form input[type=email] {
   padding: 10px;
   border-radius: 4px;
@@ -266,7 +246,6 @@ footer .footer-container .footer-center .newsletter-form input[type=email] {
   width: 100%;
   max-width: 250px;
 }
-
 footer .footer-container .footer-center .newsletter-form button {
   padding: 10px 20px;
   background-color: #007bff;
@@ -275,37 +254,31 @@ footer .footer-container .footer-center .newsletter-form button {
   border-radius: 4px;
   cursor: pointer;
 }
-
 footer .footer-container .footer-center .newsletter-form button:hover {
   background-color: #0056b3;
 }
-
 footer .footer-container .footer-right {
   flex: 1;
   text-align: right;
   margin-top: 20px;
 }
-
 footer .footer-container .footer-right .social-icons {
   display: flex;
   gap: 15px;
   margin-bottom: 10px;
   justify-content: flex-end;
 }
-
 footer .footer-container .footer-right .social-icons a {
   color: white;
   font-size: 20px;
   text-decoration: none;
 }
-
 footer .footer-container .footer-right .contact-link {
   display: block;
   margin: 10px 0;
   color: white;
   text-decoration: none;
 }
-
 footer .footer-container .footer-right .back-to-top {
   background-color: #028b20;
   color: white;
@@ -317,7 +290,6 @@ footer .footer-container .footer-right .back-to-top {
   text-transform: uppercase;
   transition: background-color 0.3s ease;
 }
-
 footer .footer-container .footer-right .back-to-top:hover {
   background-color: #02711a;
 }
@@ -326,7 +298,6 @@ footer .footer-container .footer-right .back-to-top:hover {
   .checkbtn {
     display: block;
   }
-
   nav ul {
     position: fixed;
     width: 100%;
@@ -340,133 +311,107 @@ footer .footer-container .footer-right .back-to-top:hover {
     padding-top: 110px;
     z-index: 1;
   }
-
   nav ul li {
     margin: 20px 0;
   }
-
   nav ul li a {
     color: rgb(249, 249, 248);
     font-size: 24px;
   }
-
   .search-container {
     flex-direction: column;
   }
-
   .search-input {
     width: 80%;
     margin: 10px 0;
   }
-
-  #check:checked~ul {
+  #check:checked ~ ul {
     left: 0;
   }
-
   .mainclase section article {
     flex: 1 1 calc(25% - 20px);
   }
 }
-
 @media (max-width: 768px) and (max-width: 1024px) {
   .mainclase section article {
     flex: 1 1 calc(33.333% - 20px);
   }
 }
-
 @media (max-width: 768px) and (max-width: 768px) {
   .mainclase section article {
     flex: 1 1 calc(50% - 20px);
   }
 }
-
 @media (max-width: 768px) and (max-width: 576px) {
   .mainclase section article {
     flex: 1 1 100%;
   }
 }
-
 @media (max-width: 768px) {
   footer .footer-container {
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
-
   footer .footer-left,
   footer .footer-center,
   footer .footer-right {
     flex: 1 0 100%;
     margin-bottom: 20px;
   }
-
   footer .newsletter-form {
     flex-direction: column;
     gap: 20px;
   }
-
   footer .newsletter-form input[type=email],
   footer .newsletter-form button {
     width: 100%;
   }
-
   footer .social-icons {
     justify-content: center;
   }
-
   footer .footer-right {
     text-align: center;
   }
 }
-
 @media (max-width: 576px) {
   .imagenSectionFondo {
     height: 30vh;
   }
-
   .text-overlay {
-    background-color: rgba(0, 0, 0, 0.677);
-    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.561);
+    border-radius: 40px;
   }
-
   .text-overlay h1 {
     font-size: 1.5em;
   }
-
   .text-overlay h2 {
     font-size: 1.2em;
   }
-
   footer .newsletter-form {
     padding: 10px;
   }
-
   footer .contact-button {
     padding: 8px;
   }
 }
-
 @media (max-width: 768px) {
   .ImgSec {
     padding: 15px;
   }
-
   .imgPickups {
     width: 90%;
   }
 }
-
 /* Estilos para celulares */
 @media (max-width: 576px) {
   .ImgSec {
     padding: 10px;
   }
-
   .imgPickups {
     width: 100%;
   }
 }
-
 .maincontact {
   background-color: #015a01;
   padding: 20px;
@@ -483,25 +428,21 @@ footer .footer-container .footer-right .back-to-top:hover {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
 .contact-form fieldset {
   border: 1px solid #ced4da;
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 20px;
 }
-
 .contact-form legend {
   padding: 0 10px;
   font-size: 1.2em;
   font-weight: bold;
 }
-
 .contact-form .contact-input,
 .contact-form .contact-textarea {
   margin-top: 5px;
 }
-
 .contact-form .contact-button {
   width: 100%;
   padding: 10px;
